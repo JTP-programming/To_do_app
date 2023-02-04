@@ -12,14 +12,15 @@
         <h1 class="sign_in_text">Sign up</h1>
         <div class="input_group">
             <ion-icon class="icon"name="person"></ion-icon>
-            <input placeholder="Username"class="input_element"></input>
+            <input placeholder="Username" id="un"class="input_element"></input>
         </div>
         <div class="input_group password">
             <ion-icon class="icon"name="lock-closed"></ion-icon>
-            <input type="password" placeholder="Username"class="input_element"></input>
+            <input type="password" placeholder="password" id="pw"class="input_element"></input>
         </div>
-        <button class="login_button">LOGIN</button>
+        <button class="login_button" onclick="signUp()">SIGN UP</button>
     </div>
 </body>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script src="signUp.js"></script>
 </html>
